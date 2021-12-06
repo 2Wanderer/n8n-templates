@@ -6,3 +6,4 @@ The flow will collect samples from [TheHive](https://n8n.io/) and post it to [CA
 url, domain or file observable. It will return a task with the report URL and the first 2 screenshots back to TheHive, it add some tags to the case and autoclose the task when finished.
 
 prerequisits: enabled webhooks in TheHive4.x.x and enabled restAPI in CAPEv2 
+after import add you credentials and API secrets to the credentialstore in N8N inorder to make this work
